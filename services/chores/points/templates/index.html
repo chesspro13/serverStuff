@@ -1,0 +1,39 @@
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<style type="text/css">
+	.display_table {
+		border= 1px;
+	}
+
+	.HS_item {
+		width: 300px;
+		height: 142px;
+	}
+
+	a {
+		color: #000000;
+		text-decoration: none;
+	}
+
+	a:link:active, a:visited:active {
+		color: #000000;
+	}
+
+	.sauce_redirect {
+		border: none;
+	    outline: none;
+	    background: none;
+	}
+</style>
+	<form method="POST" action='submit_points'>
+		{% csrf_token %}
+		<button type='submit'>
+			Add points
+		</button>
+	</form>
+
+{% endblock %}

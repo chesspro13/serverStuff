@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+	<style type="text/css">
+		.pillow {
+			padding: 15px;
+			border-spacing: 5px;
+		}
+	</style>
+
+		<h1>{{ name }}</h1>
+		<h3>Points: {{ points }}</h3>
+
+
+	<table class='pillow'>
+		<tr>
+			<td>Date</td>
+			<td>Task</td>
+			<td>Remarks</td>
+			<td>Points</td>
+		</tr>
+	{% for i in output %}
+		<tr>
+			<td>{{ i.date }}</td>
+			<td>{{ i.task }}</td>
+			<td>{{ i.remarks }}</td>
+			<td>{{ i.points }}</td>
+		</tr>
+	{% endfor %}
+	</table>
+
+{% endblock %}

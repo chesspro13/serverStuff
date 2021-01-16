@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<style type="text/css">
+	.display_table {
+		border= 1px;
+	}
+
+	.HS_item {
+		width: 300px;
+		height: 142px;
+	}
+
+	a {
+		color: #000000;
+		text-decoration: none;
+	}
+
+	a:link:active, a:visited:active {
+		color: #000000;
+	}
+
+	.sauce_redirect {
+		border: none;
+	    outline: none;
+	    background: none;
+	}
+</style>
+
+	
+<form method='POST' action='/reward_request'>
+	{% csrf_token %}
+	{{ form.as_p }}
+	<input type='hidden' value={{ date }} name='date'/>
+	<input type='submit' value = 'Submit'>
+</form>
+
+
+{% endblock %}

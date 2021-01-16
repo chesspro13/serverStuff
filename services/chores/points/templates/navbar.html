@@ -1,0 +1,68 @@
+<style type="text/css">
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	}
+
+	li {
+		float: left;
+	}
+
+	li a {
+	  display: block;
+	  color: black;
+	  text-align: center;
+	  padding: 16px;
+	  text-decoration: none;
+	}
+
+	li a:hover {
+	  background-color: #696969;
+	}
+</style>
+
+<div class="tab">
+	<ul>
+		<li><a href="submit_points">Submit Request</a></li>
+		<li><a href="reward_submission">Request reward</a></li>
+
+		<li><a href="pending_requests">View Requests</a></li>
+		<li><a href="review_reward_list">View Reward Requests</a></li>
+
+
+		<li>
+			<form method="POST" action='view_points'>
+				{% csrf_token %}
+				<button >Brandon's Points
+					<input type="hidden" name = "Name" value = "Brandon" />
+				</button>
+			</form>
+		</li>
+		<li>
+			<form method="POST" action='view_points'>
+				{% csrf_token %}
+				<button>Jennifer's Points
+					<input type="hidden" name = "Name" value = "Jennifer" />
+				</button>
+			</form>
+		</li>
+		<li>
+			<form method="POST" action='view_points'>
+				{% csrf_token %}
+				<button>Pandora's Points
+					<input type="hidden" name = "Name" value = "Pandora" />
+				</button>
+			</form>
+		</li>
+		<li>
+			<form method="POST" action='view_points'>
+				{% csrf_token %}
+				<button>Violet's Points
+					<input type="hidden" name = "Name" value = "Violet" />
+				</button>
+			</form>
+		</li>
+	</ul>
+</div>

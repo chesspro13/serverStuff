@@ -1,0 +1,131 @@
+version: "3"
+
+services:
+  # Reverse Proxy and Let's Encrypt
+  traefik:
+    container_name: traefik
+    image: traefik:alpine
+    restart: always
+    networks:
+      - srv
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - /opt/traefik/traefik.toml:/traefik.toml
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /opt/traefik/acme.json:/acme.json
+    labels:
+      - traefik.enable=true
+      - traefik.port=8080
+      - traefik.frontend.rule=Host:dash.mauldin314.com
+    depends_on:
+      - ddns
+  # Dokuwiki
+  wiki:
+    container_name: dokuwiki
+    image: mprasil/dokuwiki
+    restart: always
+    networks:
+      - srv
+    ports:
+      - "8081:80"
+    volumes:
+      - /opt/wiki/data/:/dokuwiki/data
+      - /opt/wiki/conf/:/dokuwiki/conf
+      - /opt/wiki/lib/plugins/:/dokuwiki/lib/plugins
+      - /opt/wiki/lib/tpl/:/dokuwiki/lib/tpl
+      - /opt/wiki/logs/:/dokuwiki/var/log
+    labels:
+      - traefik.enable=true
+      - traefik.frontend.rule=Host:wiki.mauldin314.com
+    depends_on:
+      - traefik
+
+  # Dynamic DNS
+  ddns:
+    container_name: ddns
+    image: qmcgaw/ddns-updater
+    restart: always
+    networks:
+      - srv
+    ports:
+      - "8000:8000"
+    volumes:
+      - /opt/traefik/ddns:/updater/data
+
+#Chores server!
+  chores:
+    container_name: chores
+    build: ./services/chores
+    networks:
+      - srv
+    command: python3 points/manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8002:8000"
+    labels:
+      - traefik.enable=true
+      - traefik.frontend.rule=Host:chore.mauldin314.com
+    depends_on:
+      - traefik
+
+  git:
+    container_name: GitLab
+    image: 'gitlab/gitlab-ee:latest'
+    build: ./services/gitlab
+    restart: always
+    hostname: 'git.mauldin314.com'
+    networks:
+      - srv
+        #    environment:
+        #      GITLAB_OMNIBUS_CONFIG: |
+        #        external_url 'https://git.mauldin314.com'
+    ports:
+      - '8003:80'
+      - '8004:443'
+      - '8005:22'
+    volumes:
+      - '$GITLAB_HOME/config:/etc/gitlab'
+      - '$GITLAB_HOME/logs:/var/log/gitlab'
+      - '$GITLAB_HOME/data:/var/opt/gitlab'
+    labels:
+      - traefik.enable=true
+      - traefik.frontend.rule=Host:git.mauldin314.com
+    depends_on:
+      - traefik
+        #  element:
+        #    cont#ainer_name: Element
+        #    build: ./services/element
+        #    #    image: 'victorim/element-web:1.7.16'
+        #    #    restart: unless-stopped
+    #    #    networks:
+    #    #      - srv
+        #    ports:
+        #      - "8006:80"
+        #    volumes:
+        #            - '/etc/element-web/config.json:/data/config.json'
+        #    labels:
+        #      - traefik.enable=true
+        #      - traefik.frontend.rule=Host:matrix.mauldin314.com
+        #    depends_on:
+        #      - #traefik
+  synapse:
+    image: "matrixdotorg/synapse:latest"
+    container_name: "Synapse"
+    volumes:
+      - "./services/synapse/data:/data"
+    environment:
+      SYNAPSE_SERVER_NAME: "https://synapse.mauldin314.com"
+      SYNAPSE_REPORT_STATS: 'yes'
+    networks:
+      - srv
+    ports:
+      - "8008:8008"
+    labels:
+      - traefik.enable=true
+      - traefik.frontend.rule=Host:synapse.mauldin314.com
+    depends_on:
+      - traefik
+
+networks:
+  srv:

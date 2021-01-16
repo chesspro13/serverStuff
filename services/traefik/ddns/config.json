@@ -1,0 +1,12 @@
+{
+    "settings": [
+        {
+            "provider": "namecheap",
+            "domain": "mauldin314.com",
+            "host": "*",
+            "ip_method": "opendns",
+            "delay": 300,
+            "password": "d0554c0d5b31464dbca0652d97539a39"
+        }
+    ]
+}

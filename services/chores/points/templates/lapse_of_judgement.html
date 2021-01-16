@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+	<table class='pillow'>
+		<tr>
+			<td>Date</td>
+			<td>Task</td>
+			<td>Remarks</td>
+		</tr>
+	{% for i in output %}
+		<tr>
+			<td>{{ i }}</td>
+			<td>{{ i.name }}</td>
+			<td>{{ i.task }}</td>
+		</tr>
+	{% endfor %}
+	</table>
+
+{% endblock %}

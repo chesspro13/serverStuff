@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+	Name: {{ name }}
+	<br>
+	Task: {{ reward }}
+	<br>
+	Date: {{ date }}
+	<form method="POST" action='add_reward_to_db'>
+		{% csrf_token %}
+
+			<input type="hidden" name = "Name" value = {{ name }} />
+			<input type="hidden" name = "Reward" value = {{ reward }} />
+			<input type="hidden" name = "Date" value = {{ date }} />
+
+
+			<br>
+			Notes<input type='textfield' name='Notes'/>
+
+			<br>
+			<br>
+			Password:<input type='text' name='shittyPassword' />
+			<br>
+
+			<button name='approved' type='submit'> Approve </button>
+			<button name='denied' type='submit'> Deny </button>
+	</form>
+
+{% endblock %}

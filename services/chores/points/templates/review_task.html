@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+	Name: {{ name }}
+	<br>
+	Task: {{ task }}
+	<br>
+	Date: {{ date }}
+	<form method="POST" action='result'>
+		{% csrf_token %}
+
+			<input type="hidden" name = "Name" value = {{ name }} />
+			<input type="hidden" name = "Task" value = {{ task }} />
+			<input type="hidden" name = "Date" value = {{ date }} />
+
+
+			<br>
+			Unprompted<input type="checkbox" name='Unprompted'/>
+			<br>
+			Notes<input type='textfield' name='Notes'/>
+			<br>
+			Point adjustment<input type="number" name='PointAdjustment' value='0'/>
+
+			<br>
+			<br>
+			Password:<input type='text' name='shittyPassword' />
+			<br>
+
+			<button name='approved' type='submit'> Approve </button>
+			<button name='denied' type='submit'> Deny </button>
+	</form>
+
+{% endblock %}

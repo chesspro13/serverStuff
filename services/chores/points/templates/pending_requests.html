@@ -1,0 +1,23 @@
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+		{% csrf_token %}
+		{% for i,j,h in rl %}
+	
+			<form method="POST" action='review_task'>
+				{% csrf_token %}
+				<button type='submit'> {{ i }}: {{ j }}    <p>               </p>Date: {{ h }}
+
+
+					<input type="hidden" name = "Name" value = "{{ i }}" />
+					<input type="hidden" name = "Task" value = "{{ j }}" />
+					<input type="hidden" name = "Dask" value = "{{ h }}" />
+
+				</button>
+			</form>
+		{% endfor %}
+
+{% endblock %}
