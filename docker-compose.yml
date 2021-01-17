@@ -62,7 +62,7 @@ services:
     restart: always
     build: .
     environment:
-      POSTGRES_DB: "postgres"
+      POSTGRES_DB: "db"
       POSTGRES_USER: "postgres"
       POSTGRES_PASSWORD: "postgres"
     ports:
@@ -71,6 +71,10 @@ services:
       - svc
     volumes:
       - ./services/postgres/postgres-data:/var/lib/postgresql/data
+    labels:
+      - traefik.enable=true
+      - traefik.port=5432
+      - traefik.docker.network=svc
 
 #Chores server!
   chores:
@@ -83,6 +87,8 @@ services:
     command: python3 points/manage.py makemigrations
     command: python3 points/manage.py migrate
     command: python3 points/manage.py runserver 0.0.0.0:8000
+    links:
+      - db:db
     labels:
       - traefik.enable=true
       - traefik.frontend.rule=Host:chore.mauldin314.com
