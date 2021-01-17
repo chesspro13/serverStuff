@@ -1,0 +1,15 @@
+2021-01-17_01:47:06.02658 == Sinatra (v2.0.8.1) has taken the stage on 9168 for development with backup from Puma
+2021-01-17_01:47:06.02670 Puma starting in single mode...
+2021-01-17_01:47:06.02670 * Version 4.3.5.gitlab.3 (ruby 2.7.2-p137), codename: Mysterious Traveller
+2021-01-17_01:47:06.02670 * Min threads: 0, max threads: 16
+2021-01-17_01:47:06.02671 * Environment: development
+2021-01-17_01:47:06.02690 * Listening on tcp://127.0.0.1:9168
+2021-01-17_01:47:06.02693 Use Ctrl-C to stop
+2021-01-17_01:47:11.53551 E, [2021-01-17T01:47:11.535468 #328] ERROR -- : Error connecting to the database: could not connect to server: Connection refused
+2021-01-17_01:47:11.53553 	Is the server running locally and accepting
+2021-01-17_01:47:11.53553 	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+2021-01-17_01:47:11.53553 
+2021-01-17_01:47:26.50730 E, [2021-01-17T01:47:26.507243 #328] ERROR -- : Error connecting to the database: could not connect to server: Connection refused
+2021-01-17_01:47:26.50732 	Is the server running locally and accepting
+2021-01-17_01:47:26.50732 	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+2021-01-17_01:47:26.50733 

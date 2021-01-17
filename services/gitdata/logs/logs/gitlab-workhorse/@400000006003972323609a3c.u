@@ -1,0 +1,11 @@
+configFile: open config.toml: no such file or directory
+configFile: open config.toml: no such file or directory
+configFile: open config.toml: no such file or directory
+{"build_time":"20210113.202534","level":"info","msg":"Starting","time":"2021-01-17T01:44:49Z","version":"v8.58.2"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2021-01-17T01:44:49Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2021-01-17T01:44:49Z"}
+{"build_time":"20210113.202534","level":"info","msg":"Starting","time":"2021-01-17T01:46:46Z","version":"v8.58.2"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2021-01-17T01:46:46Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2021-01-17T01:46:46Z"}
+{"correlation_id":"01EW70BW7YQ1XPB0ZTMSR9N2SM","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"error","time":"2021-01-17T01:46:46Z","uri":"/help"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01EW70BW7YQ1XPB0ZTMSR9N2SM","duration_ms":1,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":502,"system":"http","time":"2021-01-17T01:46:46Z","ttfb_ms":1,"uri":"/help","user_agent":"curl/7.74.0-DEV","written_bytes":2940}

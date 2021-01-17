@@ -1,0 +1,4 @@
+2021-01-17_01:45:51.89161 time="2021-01-17T01:45:51Z" level=info msg="Redis Metrics Exporter 1.12.1    build date:     sha1:     Go: go1.14.7    GOOS: linux    GOARCH: amd64"
+2021-01-17_01:45:51.89274 time="2021-01-17T01:45:51Z" level=info msg="Providing metrics at localhost:9121/metrics"
+2021-01-17_01:46:47.36914 time="2021-01-17T01:46:47Z" level=info msg="Redis Metrics Exporter 1.12.1    build date:     sha1:     Go: go1.14.7    GOOS: linux    GOARCH: amd64"
+2021-01-17_01:46:47.36979 time="2021-01-17T01:46:47Z" level=info msg="Providing metrics at localhost:9121/metrics"

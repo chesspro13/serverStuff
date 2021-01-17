@@ -1,0 +1,89 @@
+# Logfile created on 2021-01-17 01:39:35 +0000 by logger.rb/v1.4.2
+[2021-01-17T01:39:35+00:00] INFO: Started Chef Infra Zero at chefzero://localhost:1 with repository at /opt/gitlab/embedded
+  One version per cookbook
+
+[2021-01-17T01:39:36+00:00] INFO: *** Chef Infra Client 15.14.0 ***
+[2021-01-17T01:39:36+00:00] INFO: Platform: x86_64-linux
+[2021-01-17T01:39:36+00:00] INFO: Chef-client pid: 27
+[2021-01-17T01:39:36+00:00] WARN: Plugin Network: unable to detect ipaddress
+[2021-01-17T01:39:36+00:00] INFO: Setting the run_list to ["recipe[gitlab]"] from CLI options
+[2021-01-17T01:39:36+00:00] INFO: Run List is [recipe[gitlab]]
+[2021-01-17T01:39:36+00:00] INFO: Run List expands to [gitlab]
+[2021-01-17T01:39:36+00:00] INFO: Starting Chef Infra Client Run for git.mauldin314.com
+[2021-01-17T01:39:36+00:00] INFO: Running start handlers
+[2021-01-17T01:39:36+00:00] INFO: Start handlers complete.
+[2021-01-17T01:39:37+00:00] INFO: Loading cookbooks [gitlab@0.0.1, package@0.1.0, logrotate@0.0.0, postgresql@0.1.0, redis@0.1.0, monitoring@0.1.0, registry@0.1.0, mattermost@0.1.0, consul@0.1.0, gitaly@0.1.0, praefect@0.1.0, gitlab-kas@0.1.0, gitlab-pages@0.1.0, letsencrypt@0.1.0, nginx@0.1.0, runit@5.1.3, acme@4.1.1, crond@0.1.0]
+[2021-01-17T01:39:38+00:00] INFO: directory[/etc/gitlab] owner changed to 0
+[2021-01-17T01:39:39+00:00] INFO: Skipped selecting an init system because it was explicitly disabled
+[2021-01-17T01:39:39+00:00] INFO: directory[Create /var/opt/gitlab] owner changed to 0
+[2021-01-17T01:39:39+00:00] INFO: directory[Create /var/log/gitlab] owner changed to 0
+[2021-01-17T01:39:39+00:00] INFO: template[/var/opt/gitlab/.gitconfig] owner changed to 998
+[2021-01-17T01:39:39+00:00] INFO: directory[/var/opt/gitlab/.bundle] owner changed to 998
+[2021-01-17T01:39:39+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/.ssh] called
+[2021-01-17T01:39:39+00:00] INFO: directory[/var/log/gitlab/gitlab-shell/] owner changed to 998
+[2021-01-17T01:39:39+00:00] INFO: directory[/var/opt/gitlab/gitlab-shell] owner changed to 998
+[2021-01-17T01:39:39+00:00] INFO: template[/var/opt/gitlab/gitlab-shell/config.yml] owner changed to 0
+[2021-01-17T01:39:40+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/git-data] called
+[2021-01-17T01:39:40+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/git-data/repositories] called
+[2021-01-17T01:39:40+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/gitlab-rails/shared] called
+[2021-01-17T01:39:40+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/gitlab-rails/shared/pages] called
+[2021-01-17T01:39:40+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/gitlab-rails/shared/artifacts] called
+[2021-01-17T01:39:41+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/gitlab-rails/shared/external-diffs] called
+[2021-01-17T01:39:41+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/gitlab-rails/shared/lfs-objects] called
+[2021-01-17T01:39:41+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/gitlab-rails/shared/packages] called
+[2021-01-17T01:39:41+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/gitlab-rails/shared/dependency_proxy] called
+[2021-01-17T01:39:41+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/gitlab-rails/shared/terraform_state] called
+[2021-01-17T01:39:41+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/gitlab-rails/uploads] called
+[2021-01-17T01:39:42+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/gitlab-ci/builds] called
+[2021-01-17T01:39:42+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/gitlab-rails/shared/cache] called
+[2021-01-17T01:39:42+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/gitlab-rails/shared/tmp] called
+[2021-01-17T01:39:42+00:00] INFO: directory[create /var/opt/gitlab/gitlab-rails/etc] owner changed to 998
+[2021-01-17T01:39:42+00:00] INFO: directory[create /var/opt/gitlab/gitlab-rails/working] owner changed to 998
+[2021-01-17T01:39:42+00:00] INFO: directory[create /var/opt/gitlab/gitlab-rails/tmp] owner changed to 998
+[2021-01-17T01:39:42+00:00] INFO: directory[create /var/opt/gitlab/gitlab-rails/upgrade-status] owner changed to 998
+[2021-01-17T01:39:42+00:00] INFO: directory[create /var/log/gitlab/gitlab-rails] owner changed to 998
+[2021-01-17T01:39:42+00:00] INFO: ruby_block[directory resource: /var/opt/gitlab/backups] called
+[2021-01-17T01:39:42+00:00] INFO: directory[/var/opt/gitlab/gitlab-rails] owner changed to 998
+[2021-01-17T01:39:42+00:00] INFO: directory[/var/opt/gitlab/gitlab-ci] owner changed to 998
+[2021-01-17T01:39:42+00:00] WARN: only_if block for file[/var/opt/gitlab/gitlab-rails/etc/gitlab-registry.key] returned a string, did you mean to run a command?
+[2021-01-17T01:39:42+00:00] INFO: file[/var/opt/gitlab/gitlab-rails/etc/gitlab-registry.key] owner changed to 998
+[2021-01-17T01:39:42+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/database.yml] owner changed to 0
+[2021-01-17T01:39:42+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/secrets.yml] owner changed to 0
+[2021-01-17T01:39:42+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/resque.yml] owner changed to 0
+[2021-01-17T01:39:42+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/cable.yml] owner changed to 0
+[2021-01-17T01:39:42+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab.yml] owner changed to 0
+[2021-01-17T01:39:42+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab_workhorse_secret] owner changed to 0
+[2021-01-17T01:39:42+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab_shell_secret] owner changed to 0
+[2021-01-17T01:39:42+00:00] WARN: only_if block for templatesymlink[Create a gitlab_pages_secret and create a symlink to Rails root] returned a string, did you mean to run a command?
+[2021-01-17T01:39:42+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab_pages_secret] owner changed to 0
+[2021-01-17T01:39:42+00:00] WARN: only_if block for templatesymlink[Create a gitlab_kas_secret and create a symlink to Rails root] returned a string, did you mean to run a command?
+[2021-01-17T01:39:42+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab_kas_secret] owner changed to 0
+[2021-01-17T01:39:43+00:00] INFO: directory[/var/opt/gitlab/redis] owner changed to 997
+[2021-01-17T01:39:43+00:00] INFO: directory[/var/log/gitlab/redis] owner changed to 997
+[2021-01-17T01:39:43+00:00] INFO: template[/var/opt/gitlab/redis/redis.conf] owner changed to 997
+[2021-01-17T01:39:43+00:00] INFO: link[/opt/gitlab/service/redis] created
+[2021-01-17T01:39:43+00:00] INFO: Retrying execution of execute[/opt/gitlab/bin/gitlab-ctl start redis], 19 attempts left
+[2021-01-17T01:39:46+00:00] INFO: execute[/opt/gitlab/bin/gitlab-ctl start redis] ran successfully
+[2021-01-17T01:39:46+00:00] INFO: directory[/var/opt/gitlab/gitaly] owner changed to 998
+[2021-01-17T01:39:46+00:00] INFO: directory[/var/log/gitlab/gitaly] owner changed to 998
+[2021-01-17T01:39:46+00:00] INFO: directory[/var/opt/gitlab/gitaly/internal_sockets] owner changed to 998
+[2021-01-17T01:39:46+00:00] INFO: template[Create Gitaly config.toml] owner changed to 0
+[2021-01-17T01:39:46+00:00] INFO: link[/opt/gitlab/service/gitaly] created
+[2021-01-17T01:39:47+00:00] INFO: Retrying execution of execute[/opt/gitlab/bin/gitlab-ctl start gitaly], 19 attempts left
+[2021-01-17T01:39:49+00:00] INFO: Retrying execution of execute[/opt/gitlab/bin/gitlab-ctl start gitaly], 18 attempts left
+[2021-01-17T01:39:52+00:00] INFO: execute[/opt/gitlab/bin/gitlab-ctl start gitaly] ran successfully
+[2021-01-17T01:39:52+00:00] INFO: directory[/var/opt/gitlab/postgresql] owner changed to 996
+[2021-01-17T01:39:52+00:00] INFO: file[/var/opt/gitlab/postgresql/.profile] owner changed to 996
+[2021-01-17T01:39:52+00:00] INFO: directory[/var/opt/gitlab/postgresql/data] owner changed to 996
+[2021-01-17T01:39:52+00:00] INFO: directory[/var/log/gitlab/postgresql] owner changed to 996
+[2021-01-17T01:39:52+00:00] INFO: file[/var/opt/gitlab/postgresql/data/server.crt] owner changed to 996
+[2021-01-17T01:39:52+00:00] INFO: file[/var/opt/gitlab/postgresql/data/server.key] owner changed to 996
+[2021-01-17T01:39:52+00:00] INFO: template[/var/opt/gitlab/postgresql/data/postgresql.conf] owner changed to 996
+[2021-01-17T01:39:52+00:00] INFO: template[/var/opt/gitlab/postgresql/data/runtime.conf] owner changed to 996
+[2021-01-17T01:39:52+00:00] INFO: template[/var/opt/gitlab/postgresql/data/pg_hba.conf] owner changed to 996
+[2021-01-17T01:39:52+00:00] INFO: template[/var/opt/gitlab/postgresql/data/pg_ident.conf] owner changed to 996
+[2021-01-17T01:39:53+00:00] INFO: link[/opt/gitlab/service/postgresql] created
+[2021-01-17T01:39:53+00:00] INFO: Retrying execution of execute[/opt/gitlab/bin/gitlab-ctl start postgresql], 19 attempts left
+[2021-01-17T01:39:56+00:00] INFO: Retrying execution of execute[/opt/gitlab/bin/gitlab-ctl start postgresql], 18 attempts left
+[2021-01-17T01:40:29+00:00] INFO: Retrying execution of execute[/opt/gitlab/bin/gitlab-ctl start postgresql], 17 attempts left
+[2021-01-17T01:41:02+00:00] INFO: Retrying execution of execute[/opt/gitlab/bin/gitlab-ctl start postgresql], 16 attempts left

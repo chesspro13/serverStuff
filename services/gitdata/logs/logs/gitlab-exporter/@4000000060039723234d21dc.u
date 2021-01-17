@@ -1,0 +1,30 @@
+2021-01-17_01:45:46.24747 == Sinatra (v2.0.8.1) has taken the stage on 9168 for development with backup from Puma
+2021-01-17_01:45:46.24762 Puma starting in single mode...
+2021-01-17_01:45:46.24763 * Version 4.3.5.gitlab.3 (ruby 2.7.2-p137), codename: Mysterious Traveller
+2021-01-17_01:45:46.24763 * Min threads: 0, max threads: 16
+2021-01-17_01:45:46.24763 * Environment: development
+2021-01-17_01:45:46.24783 * Listening on tcp://127.0.0.1:9168
+2021-01-17_01:45:46.24787 Use Ctrl-C to stop
+2021-01-17_01:46:11.53350 E, [2021-01-17T01:46:11.533461 #2130] ERROR -- : Error connecting to the database: could not connect to server: Connection refused
+2021-01-17_01:46:11.53357 	Is the server running locally and accepting
+2021-01-17_01:46:11.53358 	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+2021-01-17_01:46:11.53358 
+2021-01-17_01:46:26.50675 E, [2021-01-17T01:46:26.506706 #2130] ERROR -- : Error connecting to the database: could not connect to server: Connection refused
+2021-01-17_01:46:26.50677 	Is the server running locally and accepting
+2021-01-17_01:46:26.50677 	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+2021-01-17_01:46:26.50678 
+2021-01-17_01:46:41.50738 E, [2021-01-17T01:46:41.507320 #2130] ERROR -- : Error connecting to the database: could not connect to server: Connection refused
+2021-01-17_01:46:41.50740 	Is the server running locally and accepting
+2021-01-17_01:46:41.50740 	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+2021-01-17_01:46:41.50741 
+2021-01-17_01:46:46.92562 - Gracefully stopping, waiting for requests to finish
+2021-01-17_01:46:46.92600 === puma shutdown: 2021-01-17 01:46:46 +0000 ===
+2021-01-17_01:46:46.92601 - Goodbye!
+2021-01-17_01:46:46.92607 == Sinatra has ended his set (crowd applauds)
+2021-01-17_01:46:47.34628 == Sinatra (v2.0.8.1) has taken the stage on 9168 for development with backup from Puma
+2021-01-17_01:46:47.34640 Puma starting in single mode...
+2021-01-17_01:46:47.34640 * Version 4.3.5.gitlab.3 (ruby 2.7.2-p137), codename: Mysterious Traveller
+2021-01-17_01:46:47.34640 * Min threads: 0, max threads: 16
+2021-01-17_01:46:47.34641 * Environment: development
+2021-01-17_01:46:47.34660 * Listening on tcp://127.0.0.1:9168
+2021-01-17_01:46:47.34663 Use Ctrl-C to stop

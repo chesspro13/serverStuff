@@ -1,0 +1,26 @@
+logrotate state -- version 2
+"/var/log/gitlab/gitlab-rails/gitlab-rails-db-migrate-2021-01-17-01-38-44.log" 2021-1-17-1:0:0
+"/var/log/gitlab/nginx/gitlab_error.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-rails/auth.log" 2021-1-17-1:0:0
+"/var/log/gitlab/unicorn/*.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-rails/service_measurement.log" 2021-1-17-1:0:0
+"/var/log/gitlab/actioncable/*.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-rails/application.log" 2021-1-17-1:0:0
+"/var/log/gitlab/nginx/error.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-rails/production_json.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitaly/*.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-workhorse/*.log" 2021-1-17-1:0:0
+"/var/log/gitlab/nginx/gitlab_registry_access.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-rails/api_json.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-rails/grpc.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-rails/exceptions_json.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-rails/sidekiq_client.log" 2021-1-17-1:0:0
+"/var/log/gitlab/nginx/gitlab_registry_error.log" 2021-1-17-1:0:0
+"/var/log/gitlab/nginx/gitlab_access.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-rails/application_json.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-pages/*.log" 2021-1-17-1:0:0
+"/var/log/gitlab/puma/*.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-kas/*.log" 2021-1-17-1:0:0
+"/var/log/gitlab/nginx/access.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-shell//*.log" 2021-1-17-1:0:0
+"/var/log/gitlab/gitlab-rails/production.log" 2021-1-17-1:0:0

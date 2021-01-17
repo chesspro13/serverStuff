@@ -1,0 +1,88 @@
+2021-01-17_01:47:06.26074 {"timestamp":"2021-01-17T01:47:06.260Z","pid":327,"message":"Puma starting in cluster mode..."}
+2021-01-17_01:47:06.26082 {"timestamp":"2021-01-17T01:47:06.260Z","pid":327,"message":"* Version 4.3.5.gitlab.3 (ruby 2.7.2-p137), codename: Mysterious Traveller"}
+2021-01-17_01:47:06.26083 {"timestamp":"2021-01-17T01:47:06.260Z","pid":327,"message":"* Min threads: 4, max threads: 4"}
+2021-01-17_01:47:06.26083 {"timestamp":"2021-01-17T01:47:06.260Z","pid":327,"message":"* Environment: production"}
+2021-01-17_01:47:06.26083 {"timestamp":"2021-01-17T01:47:06.260Z","pid":327,"message":"* Process workers: 16"}
+2021-01-17_01:47:06.26083 {"timestamp":"2021-01-17T01:47:06.260Z","pid":327,"message":"* Preloading application"}
+2021-01-17_01:47:17.90098 Rails Error: Unable to access log file. Please ensure that /opt/gitlab/embedded/service/gitlab-rails/log/production.log exists and is writable (ie, make it writable for user and group: chmod 0664 /opt/gitlab/embedded/service/gitlab-rails/log/production.log). The log level has been raised to WARN and the output directed to STDERR until the problem is fixed.
+2021-01-17_01:47:18.33202 {"timestamp":"2021-01-17T01:47:18.331Z","pid":327,"message":"! Unable to load application: Errno::EACCES: Permission denied @ rb_sysopen - /opt/gitlab/embedded/service/gitlab-rails/log/application.log"}
+2021-01-17_01:47:18.33204 bundler: failed to load command: puma (/opt/gitlab/embedded/bin/puma)
+2021-01-17_01:47:18.33206 Errno::EACCES: Permission denied @ rb_sysopen - /opt/gitlab/embedded/service/gitlab-rails/log/application.log
+2021-01-17_01:47:18.33206   /opt/gitlab/embedded/lib/ruby/2.7.0/logger/log_device.rb:95:in `initialize'
+2021-01-17_01:47:18.33206   /opt/gitlab/embedded/lib/ruby/2.7.0/logger/log_device.rb:95:in `open'
+2021-01-17_01:47:18.33207   /opt/gitlab/embedded/lib/ruby/2.7.0/logger/log_device.rb:95:in `open_logfile'
+2021-01-17_01:47:18.33207   /opt/gitlab/embedded/lib/ruby/2.7.0/logger/log_device.rb:86:in `set_dev'
+2021-01-17_01:47:18.33207   /opt/gitlab/embedded/lib/ruby/2.7.0/logger/log_device.rb:18:in `initialize'
+2021-01-17_01:47:18.33207   /opt/gitlab/embedded/lib/ruby/2.7.0/logger.rb:389:in `new'
+2021-01-17_01:47:18.33208   /opt/gitlab/embedded/lib/ruby/2.7.0/logger.rb:389:in `initialize'
+2021-01-17_01:47:18.33208   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/logger.rb:36:in `new'
+2021-01-17_01:47:18.33208   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/logger.rb:36:in `build'
+2021-01-17_01:47:18.33208   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/multi_destination_logger.rb:18:in `block in warn'
+2021-01-17_01:47:18.33209   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/multi_destination_logger.rb:18:in `each'
+2021-01-17_01:47:18.33209   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/multi_destination_logger.rb:18:in `warn'
+2021-01-17_01:47:18.33210   /opt/gitlab/embedded/service/gitlab-rails/app/models/concerns/cacheable_attributes.rb:58:in `rescue in current'
+2021-01-17_01:47:18.33210   /opt/gitlab/embedded/service/gitlab-rails/app/models/concerns/cacheable_attributes.rb:51:in `current'
+2021-01-17_01:47:18.33210   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/current_settings.rb:48:in `uncached_application_settings'
+2021-01-17_01:47:18.33211   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/current_settings.rb:30:in `ensure_application_settings!'
+2021-01-17_01:47:18.33211   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/current_settings.rb:7:in `block in current_application_settings'
+2021-01-17_01:47:18.33211   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/null_request_store.rb:34:in `fetch'
+2021-01-17_01:47:18.33211   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/safe_request_store.rb:12:in `fetch'
+2021-01-17_01:47:18.33212   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/current_settings.rb:7:in `current_application_settings'
+2021-01-17_01:47:18.33212   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/current_settings.rb:20:in `method_missing'
+2021-01-17_01:47:18.33212   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/metrics/prometheus.rb:100:in `prometheus_metrics_enabled_unmemoized'
+2021-01-17_01:47:18.33214   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/metrics/prometheus.rb:26:in `block in prometheus_metrics_enabled?'
+2021-01-17_01:47:18.33214   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/utils/strong_memoize.rb:30:in `strong_memoize'
+2021-01-17_01:47:18.33215   /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/metrics/prometheus.rb:25:in `prometheus_metrics_enabled?'
+2021-01-17_01:47:18.33215   /opt/gitlab/embedded/service/gitlab-rails/config/initializers/7_prometheus_metrics.rb:41:in `<top (required)>'
+2021-01-17_01:47:18.33215   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.3/lib/active_support/dependencies.rb:318:in `load'
+2021-01-17_01:47:18.33215   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.3/lib/active_support/dependencies.rb:318:in `block in load'
+2021-01-17_01:47:18.33216   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.3/lib/active_support/dependencies.rb:291:in `load_dependency'
+2021-01-17_01:47:18.33216   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.3/lib/active_support/dependencies.rb:318:in `load'
+2021-01-17_01:47:18.33216   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/engine.rb:666:in `block in load_config_initializer'
+2021-01-17_01:47:18.33217   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.3/lib/active_support/notifications.rb:182:in `instrument'
+2021-01-17_01:47:18.33218   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/engine.rb:665:in `load_config_initializer'
+2021-01-17_01:47:18.33218   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/engine.rb:625:in `block (2 levels) in <class:Engine>'
+2021-01-17_01:47:18.33219   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/engine.rb:624:in `each'
+2021-01-17_01:47:18.33219   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/engine.rb:624:in `block in <class:Engine>'
+2021-01-17_01:47:18.33219   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/initializable.rb:32:in `instance_exec'
+2021-01-17_01:47:18.33220   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/initializable.rb:32:in `run'
+2021-01-17_01:47:18.33220   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/initializable.rb:61:in `block in run_initializers'
+2021-01-17_01:47:18.33221   /opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:228:in `block in tsort_each'
+2021-01-17_01:47:18.33221   /opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+2021-01-17_01:47:18.33221   /opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:422:in `block (2 levels) in each_strongly_connected_component_from'
+2021-01-17_01:47:18.33222   /opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:431:in `each_strongly_connected_component_from'
+2021-01-17_01:47:18.33222   /opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:421:in `block in each_strongly_connected_component_from'
+2021-01-17_01:47:18.33222   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/initializable.rb:50:in `each'
+2021-01-17_01:47:18.33222   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/initializable.rb:50:in `tsort_each_child'
+2021-01-17_01:47:18.33223   /opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:415:in `call'
+2021-01-17_01:47:18.33223   /opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:415:in `each_strongly_connected_component_from'
+2021-01-17_01:47:18.33223   /opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:349:in `block in each_strongly_connected_component'
+2021-01-17_01:47:18.33224   /opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:347:in `each'
+2021-01-17_01:47:18.33224   /opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:347:in `call'
+2021-01-17_01:47:18.33224   /opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:347:in `each_strongly_connected_component'
+2021-01-17_01:47:18.33224   /opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:226:in `tsort_each'
+2021-01-17_01:47:18.33225   /opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:205:in `tsort_each'
+2021-01-17_01:47:18.33225   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/initializable.rb:60:in `run_initializers'
+2021-01-17_01:47:18.33226   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/application.rb:363:in `initialize!'
+2021-01-17_01:47:18.33226   /opt/gitlab/embedded/service/gitlab-rails/config/environment.rb:5:in `<top (required)>'
+2021-01-17_01:47:18.33226   /opt/gitlab/embedded/service/gitlab-rails/config.ru:18:in `require'
+2021-01-17_01:47:18.33226   /opt/gitlab/embedded/service/gitlab-rails/config.ru:18:in `block in <main>'
+2021-01-17_01:47:18.33227   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+2021-01-17_01:47:18.33227   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+2021-01-17_01:47:18.33227   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+2021-01-17_01:47:18.33228   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+2021-01-17_01:47:18.33228   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-puma-4.3.5.gitlab.3/lib/puma/configuration.rb:321:in `load_rackup'
+2021-01-17_01:47:18.33228   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-puma-4.3.5.gitlab.3/lib/puma/configuration.rb:246:in `app'
+2021-01-17_01:47:18.33228   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-puma-4.3.5.gitlab.3/lib/puma/runner.rb:155:in `load_and_bind'
+2021-01-17_01:47:18.33229   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-puma-4.3.5.gitlab.3/lib/puma/cluster.rb:413:in `run'
+2021-01-17_01:47:18.33229   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-puma-4.3.5.gitlab.3/lib/puma/launcher.rb:172:in `run'
+2021-01-17_01:47:18.33229   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-puma-4.3.5.gitlab.3/lib/puma/cli.rb:80:in `run'
+2021-01-17_01:47:18.33229   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-puma-4.3.5.gitlab.3/bin/puma:10:in `<top (required)>'
+2021-01-17_01:47:18.33230   /opt/gitlab/embedded/bin/puma:23:in `load'
+2021-01-17_01:47:18.33230   /opt/gitlab/embedded/bin/puma:23:in `<top (required)>'
+2021-01-17_01:47:18.96667 {"timestamp":"2021-01-17T01:47:18.966Z","pid":532,"message":"Puma starting in cluster mode..."}
+2021-01-17_01:47:18.96668 {"timestamp":"2021-01-17T01:47:18.966Z","pid":532,"message":"* Version 4.3.5.gitlab.3 (ruby 2.7.2-p137), codename: Mysterious Traveller"}
+2021-01-17_01:47:18.96669 {"timestamp":"2021-01-17T01:47:18.966Z","pid":532,"message":"* Min threads: 4, max threads: 4"}
+2021-01-17_01:47:18.96670 {"timestamp":"2021-01-17T01:47:18.966Z","pid":532,"message":"* Environment: production"}
+2021-01-17_01:47:18.96670 {"timestamp":"2021-01-17T01:47:18.966Z","pid":532,"message":"* Process workers: 16"}
+2021-01-17_01:47:18.96670 {"timestamp":"2021-01-17T01:47:18.966Z","pid":532,"message":"* Preloading application"}

@@ -883,3 +883,60 @@
 [2021-01-17T01:39:13+00:00] INFO: bash[migrate gitlab-rails database] sending run action to execute[clear the gitlab-rails cache] (immediate)
 [2021-01-17T01:39:21+00:00] INFO: Running queued delayed notifications before re-raising exception
 [2021-01-17T01:39:21+00:00] INFO: templatesymlink[Create a gitlab.yml and create a symlink to Rails root] sending run action to execute[clear the gitlab-rails cache] (delayed)
+[2021-01-17T01:39:29+00:00] INFO: version_file[Create version file for Gitaly] sending hup action to runit_service[gitaly] (delayed)
+[2021-01-17T01:39:29+00:00] INFO: runit_service[gitaly] signalled (HUP)
+[2021-01-17T01:39:29+00:00] INFO: runit_service[gitaly] sent hup
+[2021-01-17T01:39:29+00:00] INFO: file[create /opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.shmmax.conf kernel.shmmax] sending run action to execute[reload all sysctl conf] (delayed)
+[2021-01-17T01:39:29+00:00] INFO: execute[reload all sysctl conf] ran successfully
+[2021-01-17T01:39:29+00:00] ERROR: Running exception handlers
+[2021-01-17T01:39:29+00:00] ERROR: Exception handlers complete
+[2021-01-17T01:39:29+00:00] FATAL: Stacktrace dumped to /opt/gitlab/embedded/cookbooks/cache/chef-stacktrace.out
+[2021-01-17T01:39:29+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2021-01-17T01:39:29+00:00] FATAL: Chef::Exceptions::MultipleFailures: Multiple failures occurred:
+* Mixlib::ShellOut::ShellCommandFailed occurred in Chef Infra Client run: execute[clear the gitlab-rails cache] (gitlab::gitlab-rails line 439) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '1'
+---- Begin output of /opt/gitlab/bin/gitlab-rake cache:clear ----
+STDOUT: 
+STDERR: Rails couldn't infer whether you are using multiple databases from your database.yml and can't generate the tasks for the non-primary databases. If you'd like to use this feature, please simplify your ERB.
+Rails Error: Unable to access log file. Please ensure that /opt/gitlab/embedded/service/gitlab-rails/log/production.log exists and is writable (ie, make it writable for user and group: chmod 0664 /opt/gitlab/embedded/service/gitlab-rails/log/production.log). The log level has been raised to WARN and the output directed to STDERR until the problem is fixed.
+rake aborted!
+Cannot load database configuration:
+File "/opt/gitlab/embedded/service/gitlab-rails/config/database.yml" is a symlink that does not point to a valid file
+/opt/gitlab/embedded/service/gitlab-rails/config/environment.rb:5:in `<top (required)>'
+/opt/gitlab/embedded/bin/bundle:23:in `load'
+/opt/gitlab/embedded/bin/bundle:23:in `<main>'
+
+Caused by:
+File "/opt/gitlab/embedded/service/gitlab-rails/config/database.yml" is a symlink that does not point to a valid file
+/opt/gitlab/embedded/service/gitlab-rails/config/environment.rb:5:in `<top (required)>'
+/opt/gitlab/embedded/bin/bundle:23:in `load'
+/opt/gitlab/embedded/bin/bundle:23:in `<main>'
+Tasks: TOP => cache:clear => cache:clear:redis => environment
+(See full trace by running task with --trace)
+---- End output of /opt/gitlab/bin/gitlab-rake cache:clear ----
+Ran /opt/gitlab/bin/gitlab-rake cache:clear returned 1
+* Mixlib::ShellOut::ShellCommandFailed occurred in delayed notification: execute[clear the gitlab-rails cache] (gitlab::gitlab-rails line 439) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '1'
+---- Begin output of /opt/gitlab/bin/gitlab-rake cache:clear ----
+STDOUT: 
+STDERR: `/var/opt/gitlab` is not writable.
+Bundler will use `/tmp/bundler20210117-794-4d36mg794' as your home directory temporarily.
+`/var/opt/gitlab` is not writable.
+Bundler will use `/tmp/bundler20210117-794-1j7o0pi794' as your home directory temporarily.
+Rails couldn't infer whether you are using multiple databases from your database.yml and can't generate the tasks for the non-primary databases. If you'd like to use this feature, please simplify your ERB.
+Rails Error: Unable to access log file. Please ensure that /opt/gitlab/embedded/service/gitlab-rails/log/production.log exists and is writable (ie, make it writable for user and group: chmod 0664 /opt/gitlab/embedded/service/gitlab-rails/log/production.log). The log level has been raised to WARN and the output directed to STDERR until the problem is fixed.
+rake aborted!
+Cannot load database configuration:
+File "/opt/gitlab/embedded/service/gitlab-rails/config/database.yml" is a symlink that does not point to a valid file
+/opt/gitlab/embedded/service/gitlab-rails/config/environment.rb:5:in `<top (required)>'
+/opt/gitlab/embedded/bin/bundle:23:in `load'
+/opt/gitlab/embedded/bin/bundle:23:in `<main>'
+
+Caused by:
+File "/opt/gitlab/embedded/service/gitlab-rails/config/database.yml" is a symlink that does not point to a valid file
+/opt/gitlab/embedded/service/gitlab-rails/config/environment.rb:5:in `<top (required)>'
+/opt/gitlab/embedded/bin/bundle:23:in `load'
+/opt/gitlab/embedded/bin/bundle:23:in `<main>'
+Tasks: TOP => cache:clear => cache:clear:redis => environment
+(See full trace by running task with --trace)
+---- End output of /opt/gitlab/bin/gitlab-rake cache:clear ----
+Ran /opt/gitlab/bin/gitlab-rake cache:clear returned 1
+

@@ -1,0 +1,414 @@
+2021-01-17_01:43:23.01444 2021-01-17 01:43:23.014 GMT [777] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:23.01475 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:24.01932 2021-01-17 01:43:24.019 GMT [790] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:24.01963 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:25.02334 2021-01-17 01:43:25.023 GMT [799] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:25.02366 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:26.02764 2021-01-17 01:43:26.027 GMT [806] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:26.02794 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:27.03193 2021-01-17 01:43:27.031 GMT [813] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:27.03221 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:28.03604 2021-01-17 01:43:28.036 GMT [820] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:28.03632 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:29.04049 2021-01-17 01:43:29.040 GMT [827] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:29.04081 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:30.04463 2021-01-17 01:43:30.044 GMT [834] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:30.04492 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:31.04860 2021-01-17 01:43:31.048 GMT [841] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:31.04890 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:32.05267 2021-01-17 01:43:32.052 GMT [848] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:32.05299 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:33.05716 2021-01-17 01:43:33.056 GMT [855] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:33.05724 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:34.06102 2021-01-17 01:43:34.060 GMT [862] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:34.06132 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:35.06499 2021-01-17 01:43:35.064 GMT [869] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:35.06534 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:36.06931 2021-01-17 01:43:36.069 GMT [876] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:36.06961 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:37.07390 2021-01-17 01:43:37.073 GMT [883] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:37.07425 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:38.07808 2021-01-17 01:43:38.078 GMT [890] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:38.07837 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:39.08213 2021-01-17 01:43:39.082 GMT [897] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:39.08243 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:40.08613 2021-01-17 01:43:40.086 GMT [904] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:40.08643 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:41.09011 2021-01-17 01:43:41.090 GMT [911] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:41.09041 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:42.09417 2021-01-17 01:43:42.094 GMT [918] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:42.09446 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:43.09821 2021-01-17 01:43:43.098 GMT [925] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:43.09852 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:44.10223 2021-01-17 01:43:44.102 GMT [932] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:44.10253 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:45.10625 2021-01-17 01:43:45.106 GMT [939] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:45.10654 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:46.11056 2021-01-17 01:43:46.110 GMT [952] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:46.11089 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:47.11468 2021-01-17 01:43:47.114 GMT [959] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:47.11498 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:48.11865 2021-01-17 01:43:48.118 GMT [966] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:48.11895 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:49.12264 2021-01-17 01:43:49.122 GMT [973] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:49.12293 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:50.12668 2021-01-17 01:43:50.126 GMT [980] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:50.12698 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:51.13074 2021-01-17 01:43:51.130 GMT [987] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:51.13103 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:52.13477 2021-01-17 01:43:52.134 GMT [994] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:52.13507 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:53.13920 2021-01-17 01:43:53.139 GMT [1001] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:53.13949 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:54.14330 2021-01-17 01:43:54.143 GMT [1008] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:54.14360 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:55.14734 2021-01-17 01:43:55.147 GMT [1015] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:55.14764 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:56.15153 2021-01-17 01:43:56.151 GMT [1022] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:56.15183 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:57.15564 2021-01-17 01:43:57.155 GMT [1031] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:57.15594 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:58.15970 2021-01-17 01:43:58.159 GMT [1040] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:58.16000 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:43:59.16368 2021-01-17 01:43:59.163 GMT [1047] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:43:59.16398 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:00.16767 2021-01-17 01:44:00.167 GMT [1054] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:00.16797 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:01.17167 2021-01-17 01:44:01.171 GMT [1061] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:01.17197 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:02.17569 2021-01-17 01:44:02.175 GMT [1068] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:02.17599 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:03.17998 2021-01-17 01:44:03.179 GMT [1075] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:03.18030 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:04.18407 2021-01-17 01:44:04.184 GMT [1082] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:04.18436 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:05.18808 2021-01-17 01:44:05.188 GMT [1089] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:05.18838 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:06.19240 2021-01-17 01:44:06.192 GMT [1096] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:06.19270 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:07.19640 2021-01-17 01:44:07.196 GMT [1103] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:07.19669 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:08.20044 2021-01-17 01:44:08.200 GMT [1110] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:08.20073 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:09.20444 2021-01-17 01:44:09.204 GMT [1117] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:09.20473 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:10.20843 2021-01-17 01:44:10.208 GMT [1124] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:10.20872 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:11.21243 2021-01-17 01:44:11.212 GMT [1131] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:11.21272 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:12.21642 2021-01-17 01:44:12.216 GMT [1138] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:12.21671 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:13.22043 2021-01-17 01:44:13.220 GMT [1145] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:13.22072 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:14.22444 2021-01-17 01:44:14.224 GMT [1152] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:14.22471 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:15.22841 2021-01-17 01:44:15.228 GMT [1159] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:15.22870 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:16.23242 2021-01-17 01:44:16.232 GMT [1166] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:16.23271 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:17.23639 2021-01-17 01:44:17.236 GMT [1173] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:17.23671 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:18.24044 2021-01-17 01:44:18.240 GMT [1181] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:18.24076 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:19.24450 2021-01-17 01:44:19.244 GMT [1188] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:19.24482 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:20.24852 2021-01-17 01:44:20.248 GMT [1195] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:20.24880 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:21.25255 2021-01-17 01:44:21.252 GMT [1202] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:21.25284 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:22.25659 2021-01-17 01:44:22.256 GMT [1209] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:22.25688 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:23.26052 2021-01-17 01:44:23.260 GMT [1216] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:23.26079 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:24.26451 2021-01-17 01:44:24.264 GMT [1223] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:24.26480 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:25.26853 2021-01-17 01:44:25.268 GMT [1230] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:25.26883 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:26.27279 2021-01-17 01:44:26.272 GMT [1237] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:26.27310 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:27.27688 2021-01-17 01:44:27.276 GMT [1244] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:27.27719 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:28.28097 2021-01-17 01:44:28.280 GMT [1251] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:28.28127 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:29.28498 2021-01-17 01:44:29.284 GMT [1258] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:29.28529 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:30.28953 2021-01-17 01:44:30.289 GMT [1267] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:30.28990 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:31.29371 2021-01-17 01:44:31.293 GMT [1276] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:31.29401 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:32.29774 2021-01-17 01:44:32.297 GMT [1283] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:32.29807 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:33.30189 2021-01-17 01:44:33.301 GMT [1304] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:33.30218 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:34.30589 2021-01-17 01:44:34.305 GMT [1311] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:34.30620 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:35.31012 2021-01-17 01:44:35.310 GMT [1327] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:35.31042 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:36.31441 2021-01-17 01:44:36.314 GMT [1337] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:36.31469 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:37.31855 2021-01-17 01:44:37.318 GMT [1348] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:37.31885 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:38.32272 2021-01-17 01:44:38.322 GMT [1355] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:38.32302 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:39.32673 2021-01-17 01:44:39.326 GMT [1362] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:39.32703 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:40.33080 2021-01-17 01:44:40.330 GMT [1369] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:40.33111 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:41.33494 2021-01-17 01:44:41.334 GMT [1388] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:41.33522 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:42.33920 2021-01-17 01:44:42.339 GMT [1399] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:42.33952 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:43.34348 2021-01-17 01:44:43.343 GMT [1410] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:43.34379 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:44.34768 2021-01-17 01:44:44.347 GMT [1421] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:44.34798 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:45.35189 2021-01-17 01:44:45.351 GMT [1428] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:45.35219 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:46.35616 2021-01-17 01:44:46.356 GMT [1441] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:46.35646 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:47.36091 2021-01-17 01:44:47.360 GMT [1469] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:47.36127 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:48.36534 2021-01-17 01:44:48.365 GMT [1493] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:48.36563 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:49.36957 2021-01-17 01:44:49.369 GMT [1536] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:49.36990 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:50.37381 2021-01-17 01:44:50.373 GMT [1561] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:50.37411 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:51.37800 2021-01-17 01:44:51.377 GMT [1569] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:51.37827 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:52.38211 2021-01-17 01:44:52.382 GMT [1576] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:52.38243 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:53.38621 2021-01-17 01:44:53.386 GMT [1588] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:53.38651 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:54.39020 2021-01-17 01:44:54.390 GMT [1607] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:54.39044 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:55.39417 2021-01-17 01:44:55.394 GMT [1616] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:55.39441 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:56.39831 2021-01-17 01:44:56.398 GMT [1631] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:56.39862 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:57.40251 2021-01-17 01:44:57.402 GMT [1639] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:57.40282 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:58.40691 2021-01-17 01:44:58.406 GMT [1648] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:58.40721 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:44:59.41113 2021-01-17 01:44:59.411 GMT [1656] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:44:59.41144 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:00.41540 2021-01-17 01:45:00.415 GMT [1664] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:00.41571 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:01.41967 2021-01-17 01:45:01.419 GMT [1672] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:01.41998 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:02.42396 2021-01-17 01:45:02.423 GMT [1680] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:02.42427 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:03.42827 2021-01-17 01:45:03.428 GMT [1689] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:03.42858 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:04.43253 2021-01-17 01:45:04.432 GMT [1702] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:04.43284 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:05.43678 2021-01-17 01:45:05.436 GMT [1710] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:05.43711 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:06.44101 2021-01-17 01:45:06.440 GMT [1718] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:06.44135 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:07.44501 2021-01-17 01:45:07.444 GMT [1727] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:07.44531 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:08.44924 2021-01-17 01:45:08.449 GMT [1735] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:08.44954 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:09.45342 2021-01-17 01:45:09.453 GMT [1743] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:09.45372 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:10.45765 2021-01-17 01:45:10.457 GMT [1751] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:10.45794 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:11.46193 2021-01-17 01:45:11.461 GMT [1766] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:11.46222 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:12.46613 2021-01-17 01:45:12.466 GMT [1774] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:12.46643 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:13.47021 2021-01-17 01:45:13.470 GMT [1783] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:13.47047 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:14.47443 2021-01-17 01:45:14.474 GMT [1795] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:14.47473 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:15.47865 2021-01-17 01:45:15.478 GMT [1803] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:15.47895 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:16.48282 2021-01-17 01:45:16.482 GMT [1811] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:16.48311 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:17.48702 2021-01-17 01:45:17.486 GMT [1819] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:17.48731 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:18.49127 2021-01-17 01:45:18.491 GMT [1827] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:18.49158 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:19.49558 2021-01-17 01:45:19.495 GMT [1835] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:19.49589 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:20.49992 2021-01-17 01:45:20.499 GMT [1843] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:20.50025 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:21.50428 2021-01-17 01:45:21.504 GMT [1852] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:21.50457 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:22.50831 2021-01-17 01:45:22.508 GMT [1860] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:22.50861 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:23.51242 2021-01-17 01:45:23.512 GMT [1868] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:23.51270 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:24.51652 2021-01-17 01:45:24.516 GMT [1881] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:24.51682 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:25.52067 2021-01-17 01:45:25.520 GMT [1889] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:25.52099 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:26.52496 2021-01-17 01:45:26.524 GMT [1904] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:26.52526 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:27.52928 2021-01-17 01:45:27.529 GMT [1915] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:27.52958 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:28.53356 2021-01-17 01:45:28.533 GMT [1924] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:28.53387 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:29.53782 2021-01-17 01:45:29.537 GMT [1933] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:29.53812 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:30.54207 2021-01-17 01:45:30.542 GMT [1941] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:30.54237 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:31.54640 2021-01-17 01:45:31.546 GMT [1949] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:31.54669 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:32.55069 2021-01-17 01:45:32.550 GMT [1957] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:32.55099 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:33.55498 2021-01-17 01:45:33.554 GMT [1966] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:33.55528 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:34.55917 2021-01-17 01:45:34.559 GMT [1984] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:34.55948 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:35.56351 2021-01-17 01:45:35.563 GMT [2000] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:35.56381 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:36.56780 2021-01-17 01:45:36.567 GMT [2012] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:36.56810 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:37.57191 2021-01-17 01:45:37.571 GMT [2021] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:37.57221 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:38.57604 2021-01-17 01:45:38.576 GMT [2029] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:38.57635 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:39.58015 2021-01-17 01:45:39.580 GMT [2037] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:39.58044 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:40.58419 2021-01-17 01:45:40.584 GMT [2060] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:40.58449 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:41.58848 2021-01-17 01:45:41.588 GMT [2087] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:41.58878 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:42.59271 2021-01-17 01:45:42.592 GMT [2098] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:42.59302 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:43.59697 2021-01-17 01:45:43.596 GMT [2106] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:43.59727 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:44.60116 2021-01-17 01:45:44.601 GMT [2119] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:44.60147 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:45.60461 2021-01-17 01:45:45.604 GMT [2127] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:45.60481 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:46.60877 2021-01-17 01:45:46.608 GMT [2149] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:46.60908 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:47.61311 2021-01-17 01:45:47.613 GMT [2159] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:47.61342 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:48.61734 2021-01-17 01:45:48.617 GMT [2170] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:48.61766 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:49.62163 2021-01-17 01:45:49.621 GMT [2182] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:49.62193 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:50.62590 2021-01-17 01:45:50.625 GMT [2193] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:50.62618 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:51.63006 2021-01-17 01:45:51.630 GMT [2201] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:51.63036 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:52.63415 2021-01-17 01:45:52.634 GMT [2220] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:52.63438 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:53.63832 2021-01-17 01:45:53.638 GMT [2232] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:53.63862 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:54.64242 2021-01-17 01:45:54.642 GMT [2245] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:54.64271 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:55.64654 2021-01-17 01:45:55.646 GMT [2258] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:55.64685 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:56.65078 2021-01-17 01:45:56.650 GMT [2273] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:56.65108 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:57.65501 2021-01-17 01:45:57.654 GMT [2281] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:57.65531 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:58.65929 2021-01-17 01:45:58.659 GMT [2312] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:58.65959 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:45:59.66359 2021-01-17 01:45:59.663 GMT [2324] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:45:59.66395 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:00.66794 2021-01-17 01:46:00.667 GMT [2336] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:00.66829 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:01.67251 2021-01-17 01:46:01.672 GMT [2344] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:01.67281 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:02.67679 2021-01-17 01:46:02.676 GMT [2352] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:02.67711 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:03.68111 2021-01-17 01:46:03.681 GMT [2360] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:03.68142 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:04.68546 2021-01-17 01:46:04.685 GMT [2393] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:04.68576 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:05.68970 2021-01-17 01:46:05.689 GMT [2407] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:05.69001 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:06.69400 2021-01-17 01:46:06.693 GMT [2421] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:06.69430 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:07.69819 2021-01-17 01:46:07.698 GMT [2431] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:07.69849 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:08.70243 2021-01-17 01:46:08.702 GMT [2440] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:08.70273 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:09.70656 2021-01-17 01:46:09.706 GMT [2448] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:09.70686 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:10.71081 2021-01-17 01:46:10.710 GMT [2466] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:10.71114 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:11.71518 2021-01-17 01:46:11.715 GMT [2484] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:11.71549 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:12.71905 2021-01-17 01:46:12.719 GMT [2500] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:12.71932 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:13.72329 2021-01-17 01:46:13.723 GMT [2519] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:13.72360 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:14.72763 2021-01-17 01:46:14.727 GMT [2529] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:14.72794 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:15.73203 2021-01-17 01:46:15.731 GMT [2541] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:15.73233 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:16.73638 2021-01-17 01:46:16.736 GMT [2549] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:16.73669 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:17.74070 2021-01-17 01:46:17.740 GMT [2557] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:17.74102 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:18.74512 2021-01-17 01:46:18.745 GMT [2568] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:18.74543 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:19.74943 2021-01-17 01:46:19.749 GMT [2576] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:19.74972 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:20.75390 2021-01-17 01:46:20.753 GMT [2584] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:20.75425 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:21.75826 2021-01-17 01:46:21.758 GMT [2592] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:21.75857 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:22.76278 2021-01-17 01:46:22.762 GMT [2600] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:22.76308 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:23.76710 2021-01-17 01:46:23.767 GMT [2609] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:23.76741 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:24.77126 2021-01-17 01:46:24.771 GMT [2618] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:24.77157 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:25.77540 2021-01-17 01:46:25.775 GMT [2627] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:25.77574 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:26.77988 2021-01-17 01:46:26.779 GMT [2669] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:26.78019 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:27.78419 2021-01-17 01:46:27.784 GMT [2686] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:27.78450 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:28.78843 2021-01-17 01:46:28.788 GMT [2727] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:28.78876 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:29.79275 2021-01-17 01:46:29.792 GMT [2735] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:29.79307 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:30.79699 2021-01-17 01:46:30.796 GMT [2742] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:30.79730 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:31.80121 2021-01-17 01:46:31.801 GMT [2749] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:31.80151 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:32.80553 2021-01-17 01:46:32.805 GMT [2756] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:32.80584 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:33.80985 2021-01-17 01:46:33.809 GMT [2766] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:33.81015 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:34.81417 2021-01-17 01:46:34.814 GMT [2773] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:34.81447 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:35.81849 2021-01-17 01:46:35.818 GMT [2780] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:35.81882 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:36.82285 2021-01-17 01:46:36.822 GMT [2787] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:36.82315 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:37.82713 2021-01-17 01:46:37.827 GMT [2794] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:37.82743 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:38.83136 2021-01-17 01:46:38.831 GMT [2811] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:38.83166 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:39.83558 2021-01-17 01:46:39.835 GMT [2818] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:39.83588 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:40.83989 2021-01-17 01:46:40.839 GMT [2825] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:40.84020 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:41.84416 2021-01-17 01:46:41.844 GMT [2840] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:41.84447 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:42.84867 2021-01-17 01:46:42.848 GMT [2847] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:42.84900 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:43.85317 2021-01-17 01:46:43.853 GMT [2863] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:43.85348 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:44.85763 2021-01-17 01:46:44.857 GMT [2871] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:44.85794 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:45.86091 2021-01-17 01:46:45.860 GMT [2879] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:45.86107 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:46.86498 2021-01-17 01:46:46.864 GMT [2927] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:46.86529 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:47.86902 2021-01-17 01:46:47.869 GMT [2969] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:47.86933 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:48.87337 2021-01-17 01:46:48.873 GMT [2980] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:48.87368 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied
+2021-01-17_01:46:49.87765 2021-01-17 01:46:49.877 GMT [3034] LOG:  skipping missing configuration file "/var/opt/gitlab/postgresql/data/postgresql.auto.conf"
+2021-01-17_01:46:49.87796 FATAL:  could not open file "/var/opt/gitlab/postgresql/data/PG_VERSION": Permission denied

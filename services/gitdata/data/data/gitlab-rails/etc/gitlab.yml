@@ -271,11 +271,11 @@ production: &base
 
   ## Container Registry
   registry:
-    enabled: true
-    host: gitlab.mauldin314.com
-    port: 5050
-    api_url: http://localhost:5000 # internal address to the registry, will be used by GitLab to directly communicate with API
-    path: /var/opt/gitlab/gitlab-rails/shared/registry
+    enabled: false
+    host: 
+    port: 
+    api_url:  # internal address to the registry, will be used by GitLab to directly communicate with API
+    path: 
     key: /var/opt/gitlab/gitlab-rails/etc/gitlab-registry.key
     issuer: omnibus-gitlab-issuer
     notification_secret: 

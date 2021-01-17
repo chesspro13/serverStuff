@@ -1,0 +1,114 @@
+version: "2"
+
+services:
+  # Reverse Proxy and Let's Encrypt
+  traefik:
+    container_name: traefik
+    command: --docker
+    image: traefik:alpine
+    restart: always
+    networks:
+      - svc
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+            #      - /opt/traefik/traefik.toml:/traefik.toml
+      - "./services/traefik/traefik.dev.toml:/etc/traefik/traefik.toml"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./services/traefik/acme.json:/acme.json"
+    labels:
+      - traefik.enable=true
+      - traefik.port=8080
+      - traefik.frontend.rule=Host:dash.mauldin314.com
+    depends_on:
+      - ddns
+  # Dokuwiki
+  wiki:
+    container_name: dokuwiki
+    image: mprasil/dokuwiki
+    restart: always
+    networks:
+      - svc
+        #    ports:
+        #      - "8006:80"
+    volumes:
+      - "./services/wiki/data/:/dokuwiki/data"
+      - "./services/wiki/conf/:/dokuwiki/conf"
+      - "./services/wiki/lib/plugins/:/dokuwiki/lib/plugins"
+      - "./services/wiki/lib/tpl/:/dokuwiki/lib/tpl"
+      - "./services/wiki/logs/:/dokuwiki/var/log"
+    labels:
+      - traefik.enable=true
+      - traefik.frontend.rule=Host:wiki.mauldin314.com
+      - traefik.port=80
+    depends_on:
+      - traefik
+
+  # Dynamic DNS
+  ddns:
+    container_name: ddns
+    image: qmcgaw/ddns-updater
+    restart: always
+    networks:
+      - svc
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./services/traefik/ddns:/updater/data
+
+  db:
+    image: postgres
+    restart: always
+    build: .
+    environment:
+      POSTGRES_DB: "postgres"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+    expose:
+      - "5432"
+    networks:
+      - svc
+    volumes:
+      - ./services/postgres/postgres-data:/var/lib/postgresql/data
+
+#Chores server!
+  chores:
+    container_name: chores
+    build: ./services/chores
+    ports:
+      - "8011:8000"
+    networks:
+      - svc
+    command: python3 points/manage.py runserver 0.0.0.0:8000
+    labels:
+      - traefik.enable=true
+      - traefik.frontend.rule=Host:chore.mauldin314.com
+      - traefik.port=8000
+      - traefik.docker.network=svc
+    depends_on:
+      - traefik
+      - db
+
+  synapse:
+    image: "matrixdotorg/synapse:latest"
+    container_name: "Synapse"
+    volumes:
+      - "./services/synapse/data:/data"
+    environment:
+      SYNAPSE_SERVER_NAME: "https://matrix.mauldin314.com"
+      SYNAPSE_REPORT_STATS: 'yes'
+    networks:
+      - svc
+        #    ports:
+            #      - "8008:8008"
+    labels:
+      - traefik.enable=true
+      - traefik.frontend.rule=Host:matrix.mauldin314.com
+      - traefik.port=8008
+    depends_on:
+      - traefik
+
+networks:
+  svc:
+    external: true

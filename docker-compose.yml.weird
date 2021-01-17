@@ -1,0 +1,27 @@
+version: "2"
+
+services:
+  # Reverse Proxy and Let's Encrypt
+
+  db:
+    image: postgres
+    restart: always
+    build: .
+    environment:
+      POSTGRES_DB: "postgres"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+    ports:
+      - "5432:5432"
+        #    volumes:
+        #      - ./services/postgres/postgres-data:/var/lib/postgresql/data
+
+#Chores server!
+  chores:
+    container_name: chores
+    build: ./services/chores
+    ports:
+      - "8011:8000"
+    command: python3 points/manage.py makemigrations
+    command: python3 points/manage.py migrate
+    command: python3 points/manage.py runserver 0.0.0.0:8000
