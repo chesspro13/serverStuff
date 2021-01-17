@@ -1,0 +1,27 @@
+psql:/opt/gitlab/embedded/service/gitlab-rails/db/structure.sql:9: NOTICE:  extension "btree_gist" already exists, skipping
+psql:/opt/gitlab/embedded/service/gitlab-rails/db/structure.sql:11: NOTICE:  extension "pg_trgm" already exists, skipping
+WARNING: Active Record does not support composite primary key.
+
+user_interacted_projects has composite primary key. Composite primary key is ignored.
+WARNING: Active Record does not support composite primary key.
+
+project_authorizations has composite primary key. Composite primary key is ignored.
+
+== Seed from /opt/gitlab/embedded/service/gitlab-rails/db/fixtures/production/001_application_settings.rb
+Creating the default ApplicationSetting record.
+
+== Seed from /opt/gitlab/embedded/service/gitlab-rails/db/fixtures/production/002_admin.rb
+Administrator account created:
+
+login:    root
+password: You'll be prompted to create one on your first visit.
+
+
+== Seed from /opt/gitlab/embedded/service/gitlab-rails/db/fixtures/production/010_settings.rb
+Saved CI JWT signing key
+
+== Seed from /opt/gitlab/embedded/service/gitlab-rails/db/fixtures/production/998_gitlab_instance_administration_project.rb
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/validate_url-1.0.8/lib/validate_url.rb:23: warning: URI.escape is obsolete
+Successfully created self monitoring project.
+
+== Seed from /opt/gitlab/embedded/service/gitlab-rails/db/fixtures/production/999_common_metrics.rb

@@ -1,0 +1,19 @@
+Raven 3.0.4 configured not to capture errors: DSN not set
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+An enum element in Ci::Runner uses the prefix 'not_'. This will cause a conflict with auto generated negative scopes.
+Creating scope :with_api_entity_associations. Overwriting existing method Issue.with_api_entity_associations.
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :order_created_desc. Overwriting existing method Packages::Package.order_created_desc.
+Creating scope :order_name_desc. Overwriting existing method Packages::Package.order_name_desc.
+Creating scope :order_name_asc. Overwriting existing method Member.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Member.order_name_desc.
+Creating scope :with_user. Overwriting existing method GroupMember.with_user.
+Creating scope :order_name_asc. Overwriting existing method Label.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Label.order_name_desc.
+Creating scope :open. Overwriting existing method AlertManagement::Alert.open.
+Creating scope :without_statuses. Overwriting existing method Ci::Pipeline.without_statuses.
+[ActiveJob] Enqueued ActionMailer::MailDeliveryJob (Job ID: 56be039a-3e28-4869-a007-2eba83841ec1) to Sidekiq(mailers) with arguments: "Notify", "member_access_granted_email", "deliver_now", {:args=>["Group", 1]}
+Creating scope :system. Overwriting existing method Gitlab::DatabaseImporters::CommonMetrics::PrometheusMetric.system.

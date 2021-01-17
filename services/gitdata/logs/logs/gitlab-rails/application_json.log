@@ -1,0 +1,18 @@
+# Logfile created on 2021-01-17 01:38:53 +0000 by logger.rb/v1.4.2
+{"severity":"DEBUG","time":"2021-01-17T01:38:53.611Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-01-17T01:38:54.050Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-01-17T01:39:10.568Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-01-17T01:39:10.605Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionCreator","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2021-01-17T01:39:10.619Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_000000 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2021-01-17T01:39:10.631Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202101 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2021-01-17T01:39:10.643Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202102 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2021-01-17T01:39:10.656Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202103 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2021-01-17T01:39:10.668Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202104 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2021-01-17T01:39:10.680Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202105 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2021-01-17T01:39:10.694Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202106 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2021-01-17T01:39:10.705Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202107 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2021-01-17T01:39:10.706Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionCreator","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2021-01-17T01:39:11.398Z","correlation_id":null,"message":"User \"Administrator\" (admin@example.com) was created"}
+{"severity":"INFO","time":"2021-01-17T01:39:11.601Z","correlation_id":null,"message":"Group \"GitLab Instance\" was created"}
+{"severity":"INFO","time":"2021-01-17T01:39:12.244Z","correlation_id":"b610e6ecf91970ce59c509e7b434396e","message":"GitLab Instance created a new project \"GitLab Instance / Monitoring\""}
+{"severity":"ERROR","time":"2021-01-17T01:39:12.828Z","correlation_id":null,"message":"Cannot obtain an exclusive lease. There must be another instance already in execution."}

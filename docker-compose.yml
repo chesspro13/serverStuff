@@ -1,4 +1,4 @@
-version: "3"
+version: "2"
 
 services:
   # Reverse Proxy and Let's Encrypt
@@ -12,9 +12,10 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - /opt/traefik/traefik.toml:/traefik.toml
-      - /var/run/docker.sock:/var/run/docker.sock
-      - /opt/traefik/acme.json:/acme.json
+            #      - /opt/traefik/traefik.toml:/traefik.toml
+      - "./services/traefik/traefik.dev.toml:/traefik.toml"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./services/traefik/acme.json:/acme.json"
     labels:
       - traefik.enable=true
       - traefik.port=8080
@@ -31,11 +32,11 @@ services:
     ports:
       - "8006:80"
     volumes:
-      - /opt/wiki/data/:/dokuwiki/data
-      - /opt/wiki/conf/:/dokuwiki/conf
-      - /opt/wiki/lib/plugins/:/dokuwiki/lib/plugins
-      - /opt/wiki/lib/tpl/:/dokuwiki/lib/tpl
-      - /opt/wiki/logs/:/dokuwiki/var/log
+      - "./services/wiki/data/:/dokuwiki/data"
+      - "./services/wiki/conf/:/dokuwiki/conf"
+      - "./services/wiki/lib/plugins/:/dokuwiki/lib/plugins"
+      - "./services/wiki/lib/tpl/:/dokuwiki/lib/tpl"
+      - "./services/wiki/logs/:/dokuwiki/var/log"
     labels:
       - traefik.enable=true
       - traefik.frontend.rule=Host:wiki.mauldin314.com
@@ -52,7 +53,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - /opt/traefik/ddns:/updater/data
+      - ./services/traefik/ddns:/updater/data
 
 #Chores server!
   chores:
@@ -60,7 +61,7 @@ services:
     build: ./services/chores
     networks:
       - svc
-    command: python3 points/manage.py runserver 0.0.0.0:8000
+    command: python3 points/manage.py runserver 0.0.0.0:8007
     ports:
       - "8002:8000"
     labels:
@@ -72,13 +73,12 @@ services:
   git:
     container_name: GitLab
     image: 'gitlab/gitlab-ce:latest'
-    #    build: ./services/gitlab
+    build: ./services/gitlab
     restart: always
     hostname: 'git.mauldin314.com'
     networks:
       - svc
     environment:
-
       GITLAB_OMNIBUS_CONFIG: |
         external_url 'https://gitlab.mauldin314.com/'
         gitlab_rails['lfs_enabled'] = true
@@ -87,9 +87,9 @@ services:
       - '8004:443'
       - '8005:22'
     volumes:
-      - '$GITLAB_HOME/config:/etc/gitlab'
-      - '$GITLAB_HOME/logs:/var/log/gitlab'
-      - '$GITLAB_HOME/data:/var/opt/gitlab'
+      - ./services/gitdata/config/config:/etc/gitlab
+      - ./services/gitdata/logs/logs:/var/log/gitlab
+      - ./services/gitdata/data/data:/var/opt/gitlab
     labels:
       - traefik.enable=true
       - traefik.frontend.rule=Host:gitlab.mauldin314.com
